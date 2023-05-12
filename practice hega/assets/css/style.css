@@ -1,0 +1,33 @@
+a{
+    color: white !important;
+}
+#abc{
+    list-style: none;
+    display: flex;
+
+}
+.abc-item{
+    padding: 10px;
+}
+.efg::first-letter{
+    font-size: 50px;
+}
+.hi{
+    color: white;
+}
+.xyz{
+    text-align: center;
+    color: white;
+}
+.xyz1{
+    padding-left: 400px;
+  
+    color: white;
+}
+span{
+    text-align: center;
+    color: white; 
+}
+.container{
+    /* border: 1px solid red; */
+}

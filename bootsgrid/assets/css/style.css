@@ -1,0 +1,59 @@
+* {
+    font-family: 'Carlito', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+.row{
+    background-image: linear-gradient(rgba(12, 11, 11, 0.824),rgba(0, 0, 0, 0.771) ), url("https://i.pinimg.com/originals/d2/90/78/d29078057d11d4cf7953b483898961f0.png");
+}
+.abc{
+    /* background-image: linear-gradient(rgba(12, 11, 11, 0.824),rgba(0, 0, 0, 0.771) ), url("https://i.pinimg.com/originals/d2/90/78/d29078057d11d4cf7953b483898961f0.png"); */
+   padding: 20px;
+   margin: 10px 0 0 0;
+   color: white;
+   height: 700px;
+}
+
+    .fa-solid {
+        color: darkorange;
+    }
+
+    .navbar-brand {
+        color: darkorange;
+    }
+
+
+    .row {
+        /* background-color: grey; */
+
+
+    }
+
+    .abc {
+        /* border: 1px solid gray; */
+        /* background-color: aquamarine; */
+    }
+
+    .def {
+        /* background-color: coral; */
+    }
+    .spinner-border{
+        /* color: white; */
+        
+    }
+    /* .spinner-border{
+       animation-duration:  .95s ;
+    } */
+
+
+    .spinner {
+        transition: opacity .5s ease-out, visibility 0s linear 0s;
+        visibility: visible;
+        opacity: 1;
+    }

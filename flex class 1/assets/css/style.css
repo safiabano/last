@@ -1,0 +1,162 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+header{
+    background-color: rgb(118, 153, 41);
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+header a{
+    color: #fff;
+}
+
+
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    margin: 0 auto;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+
+}
+#menu li{
+    padding: 10px;
+}
+#social-links li{
+    padding: 10px;
+}
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-box{
+    /* border: 1px solid #eee; */
+    padding: 10px;
+    flex-basis: 32%;
+    max-width: 370px;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+.call-to-action a{
+    background-color: #837e7e;
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 7px 14px;
+    display: block;
+}
+
+.call-to-action a:hover{
+    background:transparent;
+    border: 2px solid gray;
+    color: grey;
+}
+.service-box h3{
+    margin: 5px 0 10px;
+}
+.service-box p{
+    margin: 0 0 10px;
+}
+
+
+
+.call-to-action {
+    align-self: flex-start;
+    margin-top:auto ;
+}
+
+
+.service-box img{
+    width: 100%;
+}
+#main{
+    display: flex;
+    
+}
+
+article{
+    padding: 10px;
+}
+
+
+aside{
+    flex: 0 0 20vw;
+    padding: 10px;
+    background-color: beige;
+}
+aside ul{
+    list-style: none;
+    padding:0px ;
+}
+   
+aside ul a {
+ color:#566c2b ;
+ padding: 10px;
+ display: block;
+ border-bottom: 1px solid grey;
+
+}
+aside img{
+    width: 100%;
+}
+footer{
+    background-color:rgb(118, 153, 41) ;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+@media only screen and (max-width:600px){
+    
+    .service-box{
+        flex-basis: 48%;
+        
+    }
+    .aside{
+        flex: 0 0 30vw;
+    }
+    
+}
+
+
+@media only screen and (max-width:500px){
+ 
+    header{
+        flex-direction: column;
+
+    }
+    #logo{
+        order: -1;
+    }
+    article{
+        order: -1;
+    }
+    #main{
+        flex-direction: column;
+    }
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        text-align: center;
+    }
+}

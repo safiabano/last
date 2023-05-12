@@ -1,0 +1,31 @@
+body{
+    width:960px ;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+#header{
+    /* border: 2px solid red; */
+}
+#content{
+    overflow: auto;
+    height: 100%;
+    /* border: 1px solid blue; */
+    
+}
+#nav, #feature, #footer {
+    background-color: rgb(167, 224, 167);
+    padding: 10px;
+    margin: 10px;
+   
+}
+.column1, .column2, .column3 {
+    background-color: rgb(208, 156, 156);
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+li{
+    display: inline;
+    padding: 10px;
+}

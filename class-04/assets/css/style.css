@@ -1,0 +1,16 @@
+.one{
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    margin: 200px auto;
+    background-color: rgb(43, 0, 255);
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    /* animation-name: all; */
+    /* animation-duration: 2s; */
+}
+.one:hover{
+width: 200px;
+height: 200px;
+}

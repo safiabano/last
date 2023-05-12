@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    
+
+   }
+
+
+
+
+/* =================================== */
+.xyz {
+ display: flex;
+ /* justify-content: space-around; */
+ background-color: rgb(62, 62, 58);
+ font-weight: bold;
+
+ /* position: sticky; */
+ top: 0px;
+ padding: 10px;
+ width: 100%;
+ 
+}
+header{
+    height: 609px;
+    background-image:url('../images/people\ img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+   
+    
+
+}
+
+
+
+
+li a{
+  color: aliceblue;
+    
+}
+
+.fa{
+    color: aliceblue;
+    
+}
+span{
+    color: aliceblue;
+}
+.fa-brands{
+    color: aliceblue;
+    width: 40px;
+    height: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+   
+}
+i{
+    padding:0px  30px;
+}
+
+.icons{
+   
+   
+    margin: 0 100px 0   ;
+  
+}
+
+.fa-brands:hover{
+   background-color: rgb(237, 232, 232);
+   border-radius: 30%;
+   width: 40px;
+   height: 50px;
+   color: white;
+}
+.fa-brands:active{
+    background-color: rgba(52, 181, 41, 0.89);
+    border-radius: 30%;
+    
+ }
+ nav {
+    
+    /* background-color: rgb(154, 109, 138); */
+    display: flex;
+    /* padding: 10px; */
+    justify-content: space-between;
+    /* position: relative; */
+    /* top: 10px; */
+    
+ }
+ .efg{
+   font-size: 40px;
+ }
+ 
+ 
+ nav a{
+
+    color: rgb(237, 221, 221);
+    /* color: black; */
+ } 
+  .green{
+    color: greenyellow;
+    padding: 0px;
+    margin: 0px;
+  }
+  nav a:hover{
+    
+    color: rgb(119, 199, 90);
+    background-color: rgb(232, 221, 10);
+    border-radius: 100%;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    color: rgb(222, 227, 231);
+    
+ }
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+   
+    justify-content: space-around;
+}
+
+
+
+
+
+
+ /* ===================nav comp=============== */
+ section h1{
+    font-family: 'Pacifico', cursive;
+ }
+ .btn {
+    width: 500px;
+    border: 2px solid rgb(237, 237, 242);
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+   
+    
+    
+ }
+ input, button{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+   
+    
+    
+ }
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+ }
+ #abc{
+    font-size: 300%;
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+ }
+ #def{
+    margin-top: 80px;
+    font-size: 180%;
+ }
+ .container{
+    /* background-color: aqua; */
+    height: 500px;
+    display: flex;
+    width: 400px;
+  
+
+ }
+ .right p ,h1, h5{
+     width: 560px;
+     padding: 10px;
+     color: black;
+     font-family: 'Pacifico', cursive;
+ }
+ .left img{
+    width: 500px;
+   padding: 60px;
+   height: 550px;
+ }
+ ul li{
+color: black;
+
+ }
+ .portion{
+    display: flex;
+
+ }
+ .apple{
+    margin-left: 150px;
+ }
+ 
+ ul{
+    margin-left: 100px;
+ }
+.read{
+    background-color: yellowgreen;
+    padding: 10px;
+    /* margin: 40px; */
+    width: 100px;
+    border-radius: 10px;
+    transition: all 2s linear;
+    
+
+   
+ }
+ .read:hover{
+    background-color: blueviolet;
+    width: 150px;
+    
+    /* transform: rotate(360deg); */
+    
+
+ }
